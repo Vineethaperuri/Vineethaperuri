@@ -1,0 +1,32 @@
+- 👋 Hi, I’m @Vineethaperuri
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+Vineethaperuri/Vineethaperuri is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+a=30
+b=30
+f=a>b
+print(f)
+g=a>=b
+print(g)
+e=a<b
+print(e)
+u=a<=b
+print(u)
+w=a==b
+print(w)
+q=a!=b
+print(q)
+False
+True
+False
+True
+True
+False
+
+[Program finished]
