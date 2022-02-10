@@ -1,0 +1,38 @@
+### Hi there 👋
+
+<!--
+**Vineethaperuri/Vineethaperuri** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+a=int(input("Marks In English Core:")) 
+b=int(input("Marks In Hindi/telugu:")) 
+c=int(input("Marks In mathematics:")) 
+d=int(input("Marks In statistics:")) 
+e=int(input("Marks In Computer Science:")) 
+f=int(input("marks in analytical skills:"))
+ 
+g=(a+b+c+d+e+f)*100/600 
+print("Your Marks In Percentage Is",g,"%") 
+ 
+if gMarks In English Core:55
+Marks In Hindi/telugu:60
+Marks In mathematics:70Marks In English Core:55
+Marks In Hindi/telugu:60
+Marks In mathematics:70
+Marks In statistics:65
+Marks In Computer Science:74
+marks in analytical skills:45
+Your Marks In Percentage Is 61.5 %
+You have passed!
+
+[Program finished]
