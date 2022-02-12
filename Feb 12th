@@ -1,0 +1,50 @@
+### Hi there 👋
+
+<!--
+**Vineethaperuri/Vineethaperuri** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+#program to calculate super market bill
+sugar=150
+salt=60
+uraddaal=250
+oilpackets=140
+biryaniparticulars=140
+sugarquan=int(input('Enter sugar quantity: '))
+saltquan=int(input('Enter salt quantity: '))
+uraddaalquan=int(input('Enter urad daal quantity: '))
+oilpacketsquan=int(input('Enter oil packets quantity: '))
+biryaniparticularsquan=int(input('Enter biryani particulars quantity: '))
+total=(sugarquan*sugar)+(saltquan*salt)+(uraddaalquan*uraddaal)+(oilpacketsquan*oilpackets)+(biryaniparticularsquan*biryaniparticulars)
+if total>5000:
+    disc=total*10/100
+    tax=total*10/100
+elif total>3000:
+    disc=total*8/100
+    tax=total*10/100
+elif total>2000:
+    disc=total*5/100
+    tax=total*18/100
+elif total>1000:
+    disc=total*3/100
+    tax=total*18/100
+marketbill=total-disc+tax
+print('super market bill: ',marketbill)
+Enter sugar quantity: 2
+Enter salt quantity: 3
+Enter urad daal quantity: 5
+Enter oil packets quantity: 4
+Enter biryani particulars quantity: 2
+super market bill:  2904.1
+
+[Program finished]
