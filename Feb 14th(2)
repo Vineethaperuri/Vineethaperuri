@@ -1,0 +1,27 @@
+### Hi there 👋
+
+<!--
+**Vineethaperuri/Vineethaperuri** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+n=int(input("Enter a number:"))
+tot=0
+while(n>0):
+    dig=n%10
+    tot=tot+dig
+    n=n//10
+print("The total sum of digits is:",tot)
+Enter a number:6578
+The total sum of digits is: 26
+
+[Program finished]
