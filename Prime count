@@ -1,0 +1,34 @@
+### Hi there 👋
+
+<!--
+**Vineethaperuri/Vineethaperuri** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+2nd :: prime count                                                                                                                                                          def myprime(n):
+    for i in range(2,n):
+        if n%i==0:
+            return False
+    return True
+t=int(input())
+for i in range(t):
+    n=int(input())
+    c=0
+    for i in range(2,n+1):
+        c=c+1
+        print(c,end=' ')
+        
+        output::
+        
+7
+7
+1 2 3 4 5 6
