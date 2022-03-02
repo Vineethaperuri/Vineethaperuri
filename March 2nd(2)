@@ -1,0 +1,65 @@
+### Hi there 👋
+
+<!--
+**Vineethaperuri/Vineethaperuri** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+A=[]
+m=int(input('enter no. of rows:'))
+n=int(input('enter no. of col:'))
+for i in range(m):
+    row=[]
+    for j in range(n):
+        k=int(input())
+        row.append(k)
+    A.append(row)
+print(A)
+B=[]
+m=int(input('enter no. of rows:'))
+n=int(input('enter no. of columns'))
+for i in range(m):
+    row=[]
+    for j in range(n):
+        k=int(input())
+        row.append(k)
+    B.append(row)
+print(B)
+result=[[0,0],[0,0]]
+c=[[0 for x in range(3)] for y in range(3)]
+for i in range(len(A)):
+    for j in range(len(B[0])):
+        for k in range(len(B)):
+             c[i][j]=c[i][j]+A[i][k]*B[k][j]
+print('resultant matrix:')
+for i in range(m):
+    for j in range(n):
+         print(c[i][j],end=' ')
+print()
+
+OUTPUT:
+enter no. of rows:2
+enter no. of columns:2
+1
+2
+3
+4
+[[1,2],[3,4]]
+enter no. of rows:2
+enter no. of columns:2
+0
+0
+0
+0
+[[0,0],[0,0,]]
+resultant matrix:
+0 0 0 0
