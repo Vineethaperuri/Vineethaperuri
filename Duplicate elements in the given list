@@ -1,0 +1,45 @@
+### Hi there 👋
+
+<!--
+**Vineethaperuri/Vineethaperuri** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+l=[]
+n=int(input('enter no.of elements: '))
+for i in range(n):
+    x=int(input())
+    l.append(x)
+print(l)
+p=[]
+count=0
+for i in range(n):
+    y=l[i]
+    for j in range(i+1,n):
+        z=l[j]
+        if y==z:
+            p.append(z)
+res=[]
+for i in p:
+    if i not in res:
+        res.append(i)
+print("Number of duplicate numbers: ",len(res))
+OUTPUT:
+enter no.of elements: 6
+1
+2
+3
+1
+1
+2
+[1, 2, 3, 1, 1, 2]
+Number of duplicate numbers: 2
