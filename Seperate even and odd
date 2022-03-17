@@ -1,0 +1,33 @@
+### Hi there 👋
+
+<!--
+**Vineethaperuri/Vineethaperuri** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+n=input()
+even_lst=[]
+odd_lst=[]
+for i in n:
+    if int(i)%2==0:
+        even_lst.append(i)
+    else:
+        odd_lst.append(i)
+even_lst.sort()
+odd_lst.sort()
+print(*odd_lst,end='   ')
+print(*even_lst)
+
+OUTPUT::
+1243536
+
+1353 246
